@@ -2,8 +2,8 @@ package com.github.vocably.minestore.example;
 
 import com.github.vocably.minestore.MineStore;
 import com.github.vocably.minestore.abstracts.AbstractHandler;
-import com.github.vocably.minestore.example.event.MineStoreExpirationEvent;
-import com.github.vocably.minestore.example.event.MineStorePurchaseEvent;
+import com.github.vocably.minestore.event.MineStoreExpirationEvent;
+import com.github.vocably.minestore.event.MineStorePurchaseEvent;
 import com.github.vocably.minestore.example.handler.ExampleHandler;
 
 import java.util.concurrent.TimeUnit;

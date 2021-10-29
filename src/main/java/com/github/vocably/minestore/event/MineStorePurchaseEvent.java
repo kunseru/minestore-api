@@ -1,4 +1,4 @@
-package com.github.vocably.minestore.example.event;
+package com.github.vocably.minestore.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
