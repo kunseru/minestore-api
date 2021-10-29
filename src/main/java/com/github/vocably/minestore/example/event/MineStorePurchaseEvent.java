@@ -1,10 +1,16 @@
 package com.github.vocably.minestore.example.event;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 import java.util.concurrent.TimeUnit;
 
+@Getter
+@AllArgsConstructor
 public class MineStorePurchaseEvent {
 
-    public MineStorePurchaseEvent (String playerName, String packetBought, int timeout, TimeUnit timeUnit) {
-
-    }
+    private final String playerName;
+    private final String packetBought;
+    private final int timeout;
+    private final TimeUnit timeUnit;
 }

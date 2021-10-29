@@ -1,8 +1,12 @@
 package com.github.vocably.minestore.example.event;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
 public class MineStoreExpirationEvent {
 
-    public MineStoreExpirationEvent (String playerName, String packetExpiring) {
-
-    }
+    private final String playerName;
+    private final String packetExpiring;
 }
